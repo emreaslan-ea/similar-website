@@ -1,0 +1,11 @@
+body{
+    font-family: 'Roboto Slab', serif;
+}
+
+.bg-orange{
+    background-color: #FFC017;
+}
+
+.bottom-line{
+    border-bottom: 1px solid #414141;
+}
