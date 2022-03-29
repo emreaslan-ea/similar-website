@@ -1,0 +1,24 @@
+.css-e657no {
+    background-image: linear-gradient(to left, rgb(203, 94, 238), rgb(12, 215, 228));
+    color: transparent;
+    background-clip: text;
+    font-weight: var(--chakra-fontWeights-black);
+    cursor: pointer;
+    font-size: var(--chakra-fontSizes-2xl);
+}
+
+.bg-purple{
+    background-color:#805ad5;
+}
+
+body{
+    font-family: 'Roboto Slab', serif;
+}
+
+.bg-button{
+    background-color: #e2e8f0;
+}
+
+.bg-container{
+    background-color: #f7fafc;
+}
