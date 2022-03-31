@@ -7,12 +7,33 @@
     font-size: var(--chakra-fontSizes-2xl);
 }
 
-.bg-purple{
+.css-11gqis1 {
+    display: inline-flex;
+    appearance: none;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    user-select: none;
+    position: relative;
+    white-space: nowrap;
+    vertical-align: middle;
+    outline: transparent solid 2px;
+    outline-offset: 2px;
+    width: 100%;
+    line-height: 1.2;
     background-color:#805ad5;
 }
 
+.bg-purple{
+    background-color:#805ad5;
+}
+.build-head-font{
+    font-family: 'Permanent Marker', cursive;
+    
+}
 body{
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .bg-button{
@@ -22,3 +43,4 @@ body{
 .bg-container{
     background-color: #f7fafc;
 }
+
