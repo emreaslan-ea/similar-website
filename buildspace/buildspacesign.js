@@ -1,8 +1,10 @@
 let userFormDom = document.querySelector("#userForm")
-userFormDom.addEventListener("submit", FormHandler())
+userFormDom.addEventListener("submit", FormHandler(submit))
 
 let PASSWORD = 123
 let EMAIL = "email@1"
+const INPUT_EMAIL = document.querySelector("#InputEmail")
+const INPUT_PASSWORD = document.querySelector("#InputPassword")
 
 const Alert =`<div class="alert alert-warning d-flex align-items-center" role="alert">
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-exclamation-triangle-fill flex-shrink-0 me-2" viewBox="0 0 16 16" role="img" aria-label="Warning:">
@@ -13,13 +15,10 @@ const Alert =`<div class="alert alert-warning d-flex align-items-center" role="a
 </div>
 </div>`
 
-function FormHandler(event){
-    event.preventDefault();
+function FormHandler(submit){
+    submit.preventDefault();
 
-    const INPUT_EMAIL = document.querySelector("#InputEmail")
-    const INPUT_PASSWORD = document.querySelector("#InputPassword")
-
-    if (INPUT_EMAIL.value && INPUT_PASSWORD.value){
+    if (INPUT_EMAIL === EMAIL && INPUT_PASSWORD === PASSWORD){
         window.location.href = "https://stackoverflow.com/questions/503093/how-do-i-redirect-to-another-webpage"
     }else
         console.log("Hatali")
