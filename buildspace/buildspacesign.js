@@ -1,5 +1,5 @@
 let userFormDom = document.querySelector("#userForm")
-userFormDom.addEventListener("submit", FormHandler(submit))
+userFormDom.addEventListener("submit", FormHandler)
 
 let PASSWORD = 123
 let EMAIL = "email@1"
