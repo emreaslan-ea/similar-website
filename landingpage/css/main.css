@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+html {
+    font-family: "Open Sans", sans-serif;
+} 
+ /* Navbar Section */
+  #navbar {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 70px;
+}
+#navbar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+#navbar ul li a {
+    padding: 0.5rem;
+}
+#navbar ul li a:hover {
+    background: #336ea2;
+    border-radius: 4px;
+}
+
+/* HOME SECTİON */
+
+#home{
+    margin-top: 2.5em;
+    margin-bottom: 3em;
+}  
+#home img{
+    border-radius: 50%;
+}
+
+#home .name{
+    margin: 0.5em 0;
+}
+
+#home .job{
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.549);
+}
+
+#home .btn.btn-primary {
+    display: inline-block;
+    margin-top: 125px;
+}
+
+#home a:hover{
+    background-color: #fff;
+    color: #336ea2;
+    border: 1px solid #336ea2;
+}
