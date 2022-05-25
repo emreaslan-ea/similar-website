@@ -61,3 +61,26 @@ html {
     color: #336ea2;
     border: 1px solid #336ea2;
 }
+
+/* EDUCATİON SECTİON */
+
+#education{
+    color: #fff;
+
+}
+#education ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 1.75em;
+}
+#education ul li{
+    min-width: 33%;
+    padding: 1em 1.5em 0 1.5em;
+}
+#education ul li h4{
+    padding: 0 0 0.5em 0;
+}
+#education h3{
+    padding-top: 0.75em;
+}
