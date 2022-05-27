@@ -1,0 +1,13 @@
+#kurslar .course{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#kurslar .content{
+    align-items: center;
+}
+
+#kurslar img{
+    width: 350px;
+}
