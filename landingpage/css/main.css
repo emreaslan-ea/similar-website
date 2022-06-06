@@ -120,3 +120,36 @@ html {
 .content .description,.author,.rating{
     opacity: 0.4;
 }
+
+/* Contact Section */
+
+#contact{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    padding-bottom: 2em;
+}
+#contact #form{
+    width: 35%;
+}
+#contact h3{
+    margin: 0.5em;
+    letter-spacing: 2px;
+}
+
+#contact .input{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 0.75em;
+}
+
+.form-control {
+    width: 100%;
+    padding: 0.4rem;
+    font-size: 1rem;
+    resize: none;
+    border-radius: 5px;
+}
